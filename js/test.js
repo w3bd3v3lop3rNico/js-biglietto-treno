@@ -27,7 +27,7 @@ const sconto40 = (40 / 100)
 console.log(sconto20, sconto40)
 //     - Calcolare il gli sconti in base all'età
 //     - Calalcolare il prezzo finale eventualmente scontato
-
+let finalPrice
 if (isNaN(userAge)) {
     	console.log('I dati inseriti non sono validi')
 } else {
@@ -61,4 +61,3 @@ if (isNaN(userAge)) {
             console.log(standardPrice)
     }
 }
-
